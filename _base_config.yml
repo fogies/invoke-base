@@ -21,7 +21,7 @@ config:
     required: false
 
     toolbox:
-      version: v18.06.1-ce
+      version: v18.09.1
 
       macos:
         cmd_bash: /bin/bash
@@ -90,11 +90,11 @@ config:
           install_path: c:\Ruby251
 
     docker_toolbox_versions:
-      - version: v18.06.1-ce
+      - version: v18.09.1
         macos:
-          installer_url: https://github.com/docker/toolbox/releases/download/v18.06.1-ce/DockerToolbox-18.06.1-ce.pkg
+          installer_url: https://github.com/docker/toolbox/releases/download/v18.09.1/DockerToolbox-18.09.1.pkg
         windows:
-          installer_url: https://github.com/docker/toolbox/releases/download/v18.06.1-ce/DockerToolbox-18.06.1-ce.exe
+          installer_url: https://github.com/docker/toolbox/releases/download/v18.09.1/DockerToolbox-18.09.1.exe
           install_path: c:\Program Files\Docker Toolbox
 
 compile_config:
